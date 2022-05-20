@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 202, 220)
+}
+
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 50px 320px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: arial;
+}
+
+p {
+    font-size:  20px;
+    font-weight: 500;
+}
+
+#counter > button {
+    background-color: coral;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    padding: 20px;
+}
+
